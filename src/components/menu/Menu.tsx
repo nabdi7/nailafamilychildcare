@@ -3,7 +3,12 @@ import React from "react";
 import Link from "next/link";
 import { Menu as MenuIcon, X, Phone } from "lucide-react";
 
-const Menu = ({ isOpen, setIsOpen }) => {
+interface MenuProps {
+  isOpen: boolean;
+  setIsOpen: (isOpen: boolean) => void;
+}
+
+const Menu = ({ isOpen, setIsOpen }: MenuProps) => {
   return (
     <div className="md:hidden">
       {/* Menu Button */}
