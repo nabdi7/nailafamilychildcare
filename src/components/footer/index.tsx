@@ -5,6 +5,7 @@ import {
   Facebook,
   Instagram,
   Youtube,
+  LucideIcon,
 } from "lucide-react";
 
 export interface QuickLink {
@@ -13,14 +14,14 @@ export interface QuickLink {
 }
 
 export interface ContactInfo {
-  icon: any;
+  icon: LucideIcon;
   href: string;
   label: string;
   isExternal?: boolean;
 }
 
 export interface SocialLink {
-  icon: any;
+  icon: LucideIcon;
   href: string;
   label: string;
 }
