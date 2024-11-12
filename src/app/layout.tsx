@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://hibafamilychildcare.com/img8.jpg",
+        url: "https://hibafamilychildcare.com/logo3.png",
         width: 500,
         height: 500,
         alt: "Hiba Family Childcare | Loving Home Childcare in Seattle, WA",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hiba Family Childcare | Loving Home Childcare in Seattle, WA",
     description: "Discover loving, nurturing childcare in a home environment at Hiba Family Childcare. Licensed provider offering infant and toddler care in Seattle, WA.",
-    images: ["https://hibafamilychildcare.com/img8.jpg"],
+    images: ["https://hibafamilychildcare.com/logo3.png"],
   },
   icons: {
     icon: "/favicon.ico",

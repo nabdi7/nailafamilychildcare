@@ -92,7 +92,7 @@ export const footerData = {
     }
   },
 
-  copyright: "© 2024 KidsFirst. All rights reserved.",
+  copyright: "© 2024 Hiba Family Childcare. All rights reserved.",
 
   credits: {
     text: "Made by",
