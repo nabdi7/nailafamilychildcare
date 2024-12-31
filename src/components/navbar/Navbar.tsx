@@ -20,7 +20,7 @@ export default function Navbar() {
                   src="/logo3.png"
                   width={64}
                   height={64}
-                  alt="Hiba Family Childcare"
+                  alt="Najah Family Childcare"
                   className="h-16 w-auto"
                 />
               </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
                 href="/"
                 className="text-lg sm:text-xl font-semibold text-gray-800"
               >
-                Hiba Family Childcare
+                Najah Family Childcare
               </Link>
             </div>
 
@@ -61,7 +61,7 @@ export default function Navbar() {
                   href="tel:2063713011"
                   className="text-pink-500 text-xs sm:text-sm whitespace-nowrap"
                 >
-                  (206)-371-3011
+                  (206)-422-8654
                 </a>
               </div>
 

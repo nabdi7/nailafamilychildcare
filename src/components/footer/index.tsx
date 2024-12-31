@@ -29,29 +29,29 @@ export interface SocialLink {
 export const footerData = {
   logo: {
     src: "/logo3.png",
-    alt: "Hiba Family Childcare",
+    alt: "Najah Family Childcare",
     width: 64,
     height: 64,
   },
-  companyName: "Hiba Family Childcare",
+  companyName: "Najah Family Childcare",
   tagline:
-    "At Hiba Family Childcare in Seattle, we provide a safe, fun, and educational environment!",
+    "At Najah Family Childcare in Seattle, we provide a safe, fun, and educational environment!",
 
   contactInfo: [
     {
       icon: Phone,
-      href: "tel:2063713011",
-      label: "(206)-371-3011",
+      href: "tel:2064228654",
+      label: "(206)-422-8654",
     },
     {
       icon: Mail,
-      href: "mailto:koosmohamed2@gmail.com",
-      label: "koosmohamed2@gmail.com",
+      href: "mailto:khalfaj2000@gmail.com",
+      label: "khalfaj2000@gmail.com",
     },
     {
       icon: MapPin,
-      href: "https://maps.app.goo.gl/qDUy3MDSiPztrfyK8",
-      label: "6532 32nd Ave SW, Seattle, WA",
+      href: "https://maps.app.goo.gl/uCbDNx5tc2zp9FMj6",
+      label: "8411 8th Ave SW, Seattle, WA",
       isExternal: true,
     },
   ] as ContactInfo[],
@@ -66,12 +66,12 @@ export const footerData = {
   socialLinks: [
     {
       icon: Facebook,
-      href: "https://www.facebook.com/hibafamilychildcare",
+      href: "https://www.facebook.com/najahfamilychildcare",
       label: "Facebook",
     },
     {
       icon: Instagram,
-      href: "https://www.instagram.com/hibafamilychildcare",
+      href: "https://www.instagram.com/najahfamilychildcare",
       label: "Instagram",
     },
     {
@@ -92,7 +92,7 @@ export const footerData = {
     }
   },
 
-  copyright: "© 2024 Hiba Family Childcare. All rights reserved.",
+  copyright: "© 2024 Najah Family Childcare. All rights reserved.",
 
   credits: {
     text: "Made by",

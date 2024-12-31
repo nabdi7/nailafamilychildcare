@@ -173,10 +173,10 @@ const Contact = () => {
                   Emergency Care Available
                 </p>
                 <a
-                  href="tel:2063713011"
+                  href="tel:2064228654"
                   className="text-pink-500 font-medium hover:text-pink-600 transition-colors duration-300"
                 >
-                  Call us anytime: (206) 371-3011
+                  Call us anytime: (206) 422-8654
                 </a>
               </div>
             </div>
