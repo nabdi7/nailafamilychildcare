@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       name: "Najah Family Childcare",
       url: "https://najahfamilychildcare.com",
     }
-  ],
+  ], 
   creator: "Najah Family Childcare",
   publisher: "Najah Family Childcare",
   formatDetection: {
