@@ -23,7 +23,7 @@ const Hero = () => {
               </h1>
 
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                At Najah Family Childcare in Seattle, we provide a safe, fun, and
+                At Naila Family Childcare in Renton WA, we provide a safe, fun, and
                 educational environment where children thrive and grow.
               </p>
 

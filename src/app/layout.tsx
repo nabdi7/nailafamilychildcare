@@ -6,47 +6,47 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: {
-    default: "Najah Family Childcare | Loving Home Childcare in Seattle, WA",
-    template: "%s | Najah Family Childcare"
+    default: "Naila Family Childcare | Loving Home Childcare in Seattle, WA",
+    template: "%s | Naila Family Childcare"
   },
-  description: "Najah Family Childcare provides nurturing, licensed home childcare services for infants and toddlers in Seattle, WA. Offering a warm, safe environment where your child feels loved and cared for.",
+  description: "Naila Family Childcare provides nurturing, licensed home childcare services for infants and toddlers in Seattle, WA. Offering a warm, safe environment where your child feels loved and cared for.",
   keywords: ["childcare", "daycare", "home childcare", "seattle childcare", "infant care", "toddler care", "licensed childcare", "family childcare", "home daycare", "seattle wa"],
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? siteConfig.url),
   authors: [
     {
-      name: "Najah Family Childcare",
-      url: "https://najahfamilychildcare.com",
+      name: "Naila Family Childcare",
+      url: "https://nailafamilychildcare.com",
     }
   ], 
-  creator: "Najah Family Childcare",
-  publisher: "Najah Family Childcare",
+  creator: "Naila Family Childcare",
+  publisher: "Naila Family Childcare",
   formatDetection: {
     email: true,
     address: true,
     telephone: true,
   },
   openGraph: {
-    title: "Najah Family Childcare | Loving Home Childcare in Seattle, WA",
-    description: "Discover loving, nurturing childcare in a home environment at Najah Family Childcare. Licensed provider offering infant and toddler care in Seattle, WA.",
-    url: "https://najahfamilychildcare.com",
-    siteName: "Najah Family Childcare",
+    title: "Naila Family Childcare | Loving Home Childcare in Seattle, WA",
+    description: "Discover loving, nurturing childcare in a home environment at Naila Family Childcare. Licensed provider offering infant and toddler care in Seattle, WA.",
+    url: "https://nailafamilychildcare.com",
+    siteName: "Naila Family Childcare",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://najahfamilychildcare.com/logo3.png",
+        url: "https://nailafamilychildcare.com/logo3.png",
         width: 500,
         height: 500,
-        alt: "Najah Family Childcare | Loving Home Childcare in Seattle, WA",
+        alt: "Naila Family Childcare | Loving Home Childcare in Seattle, WA",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Najah Family Childcare | Loving Home Childcare in Seattle, WA",
-    description: "Discover loving, nurturing childcare in a home environment at Najah Family Childcare. Licensed provider offering infant and toddler care in Seattle, WA.",
-    images: ["https://najahfamilychildcare.com/logo3.png"],
+    title: "Naila Family Childcare | Loving Home Childcare in Seattle, WA",
+    description: "Discover loving, nurturing childcare in a home environment at Naila Family Childcare. Licensed provider offering infant and toddler care in Seattle, WA.",
+    images: ["https://nailafamilychildcare.com/logo3.png"],
   },
   icons: {
     icon: "/favicon.ico",

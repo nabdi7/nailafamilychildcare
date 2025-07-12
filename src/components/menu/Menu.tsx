@@ -54,11 +54,11 @@ const Menu = ({ isOpen, setIsOpen }: MenuProps) => {
               <div className="inline-flex items-center bg-pink-100 rounded-full px-4 py-2 text-pink-500 hover:bg-pink-200 transition-colors duration-200">
                 <Phone className="h-4 w-4 text-pink-500 mr-2 flex-shrink-0" />
                 <a
-                  href="tel:2063713011"
+                  href="tel:2068228353"
                   className="text-sm"
                   onClick={() => setIsOpen(false)}
                 >
-                  (206)-371-3011
+                  (206)-822-8353 
                 </a>
               </div>
             </div>

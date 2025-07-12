@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div className="bg-white">
-      {/* Hero Section with Floating Elements */}
+      {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-pink-50 to-blue-50 pt-16 overflow-hidden">
         <div className="absolute top-10 left-10 w-20 h-20 bg-yellow-200 rounded-full opacity-20 animate-pulse"></div>
         <div className="absolute bottom-10 right-10 w-32 h-32 bg-pink-200 rounded-full opacity-20 animate-pulse delay-300"></div>
@@ -176,7 +176,7 @@ const Contact = () => {
                   href="tel:2064228654"
                   className="text-pink-500 font-medium hover:text-pink-600 transition-colors duration-300"
                 >
-                  Call us anytime: (206) 422-8654
+                  Call us anytime: (206) 822-8353
                 </a>
               </div>
             </div>

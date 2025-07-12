@@ -20,7 +20,7 @@ export default function Navbar() {
                   src="/logo3.png"
                   width={64}
                   height={64}
-                  alt="Najah Family Childcare"
+                  alt="Nailah Family Childcare"
                   className="h-16 w-auto"
                 />
               </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
                 href="/"
                 className="text-lg sm:text-xl font-semibold text-gray-800"
               >
-                Najah Family Childcare
+                Naila Family Childcare
               </Link>
             </div>
 
@@ -58,10 +58,10 @@ export default function Navbar() {
               <div className="hidden md:flex bg-pink-100 rounded-full px-2 sm:px-4 py-2 items-center">
                 <Phone className="h-4 w-4 text-pink-500 mr-1 sm:mr-2 flex-shrink-0" />
                 <a
-                  href="tel:2063713011"
+                  href="tel:2068228353"
                   className="text-pink-500 text-xs sm:text-sm whitespace-nowrap"
                 >
-                  (206)-422-8654
+                  (206)-822-8353
                 </a>
               </div>
 
