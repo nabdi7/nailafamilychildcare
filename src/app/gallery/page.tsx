@@ -2,7 +2,7 @@ import React from "react";
 import Gallery from "@/components/gallery/Gallery";
 
 export const metadata = {
-  title: "Photo Gallery | Najah Family Childcare - Seattle Home Childcare",
+  title: "Photo Gallery | Naila Family Childcare - Seattle Home Childcare",
   description:
     "View our photo gallery to see the warm, welcoming environment at Najah Family Childcare in Seattle. Get a glimpse of our home setting where children receive loving care and attention.",
   openGraph: {

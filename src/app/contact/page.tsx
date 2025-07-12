@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "@/components/contact/Contact";
 
 export const metadata = {
-  title: "Contact Us | Najah Family Childcare - Seattle Home Childcare",
+  title: "Contact Us | Naila Family Childcare - Seattle Home Childcare",
   description:
     "Get in touch with Najah Family Childcare in Seattle. Inquire about availability, schedule a visit, or learn more about our infant and toddler care services in our nurturing home environment.",
   openGraph: {

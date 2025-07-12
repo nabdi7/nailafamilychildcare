@@ -2,7 +2,7 @@ import React from "react";
 import ProgramsPage from "@/components/programs/ProgramsPage";
 
 export const metadata = {
-  title: "Our Care Programs | Najah Family Childcare - Seattle",
+  title: "Our Care Programs | Naila Family Childcare - Seattle",
   description:
     "Explore our infant and toddler care programs at Najah Family Childcare in Seattle. Learn about our daily activities, care routines, and how we create a loving environment for your child.",
   openGraph: {
