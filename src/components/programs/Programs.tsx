@@ -8,10 +8,10 @@ const Programs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            24/7 Childcare Services 💝
+            Childcare Services 💝
           </h2>
           <p className="text-xl text-gray-600">
-            Reliable and loving care for your children - any time, day or night!
+            Reliable and loving care for your children - when you need it most!
           </p>
         </div>
 

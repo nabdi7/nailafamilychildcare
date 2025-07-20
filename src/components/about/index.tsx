@@ -17,6 +17,6 @@ export const values = [
     icon: <Clock className="w-8 h-8 text-yellow-500" />,
     title: "Flexible Hours",
     description:
-      "24/7 availability to accommodate your schedule, including nights and weekends.",
+      "Convenient scheduling to accommodate your busy lifestyle and family needs.",
   },
 ];

@@ -59,7 +59,7 @@ export const footerData = {
   quickLinks: [
     { href: "/about", label: "About Us" },
     { href: "/programs", label: "Our Programs" },
-    { href: "/gallery", label: "Our Gallery" },
+    { href: "/", label: "Our Gallery" },
     { href: "/parent", label: "Parent Resources" },
   ] as QuickLink[],
 

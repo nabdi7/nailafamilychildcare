@@ -27,7 +27,7 @@ const Hero = () => {
                 educational environment where children thrive and grow.
               </p>
 
-              <div className="flex justify-center items-center space-x-4 sm:space-x-12 max-w-3xl mx-auto">
+              {/* <div className="flex justify-center items-center space-x-4 sm:space-x-12 max-w-3xl mx-auto">
                 <div className="text-center">
                   <h3 className="text-3xl sm:text-4xl font-bold text-pink-500">
                     8+
@@ -54,7 +54,7 @@ const Hero = () => {
                     Expert Staff!
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="relative mt-16">
                 <div className="absolute -top-8 left-1/4 w-24 h-24 bg-pink-200 rounded-full opacity-50 animate-bounce"></div>

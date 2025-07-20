@@ -19,7 +19,7 @@ export const featuresData = {
       icon: Clock,
       iconColor: "text-purple-500",
       bgColor: "bg-purple-50",
-      title: "24/7 Care",
+      title: "Flexible Care",
       description: "Always here",
     },
     {

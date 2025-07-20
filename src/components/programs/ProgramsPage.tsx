@@ -15,7 +15,7 @@ const ProgramsPage = () => {
     {
       title: "Toddler Care",
       age: "Ages 0-3",
-      schedule: "24/7 Availability",
+      schedule: "Flexible Hours Available",
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
       description:
@@ -29,11 +29,11 @@ const ProgramsPage = () => {
     {
       title: "Preschool Care",
       age: "Ages 4-6",
-      schedule: "Available 24/7",
+      schedule: "Extended Hours Available",
       bgColor: "bg-purple-100",
       textColor: "text-purple-600",
       description:
-        "Round-the-clock care with engaging activities and structured routines",
+        "Quality care with engaging activities and structured routines",
       features: [
         { icon: Star, text: "Structured daily activities" },
         { icon: Brain, text: "Interactive group play" },
@@ -43,11 +43,11 @@ const ProgramsPage = () => {
     {
       title: "School-Age Care",
       age: "Ages 7-12",
-      schedule: "24-hour service",
+      schedule: "Full-time & Part-time Options",
       bgColor: "bg-emerald-100",
       textColor: "text-emerald-600",
       description:
-        "Flexible care options including after-school, evening, and overnight services",
+        "Flexible care options including after-school, evening, and extended care services",
       features: [
         { icon: Brain, text: "Quiet study space" },
         { icon: Star, text: "Supervised activities" },

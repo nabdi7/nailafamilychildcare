@@ -49,15 +49,15 @@ const Contact = () => {
             <div className="flex-1 text-center md:text-left">
               <div className="inline-flex items-center bg-white rounded-full px-4 py-2 shadow-md mb-6">
                 <Star className="h-5 w-5 text-yellow-400 mr-2" />
-                <span className="text-gray-600">Available 24/7</span>
+                <span className="text-gray-600">Here to Help</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Let&apos;s Start a <br />
                 <span className="text-pink-500">Conversation</span>
               </h1>
               <p className="text-xl text-gray-600 max-w-xl">
-                Have questions about our 24/7 childcare services? We&apos;re
-                here to help your family, day or night.
+                Have questions about our childcare services? We&apos;re
+                here to help your family with all your needs.
               </p>
             </div>
 
@@ -164,8 +164,8 @@ const Contact = () => {
                   <Clock className="w-12 h-12 text-pink-500" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-2">Always Open</h3>
-                  <p className="text-gray-600">24 hours a day, 5 days a week</p>
+                  <h3 className="text-2xl font-bold mb-2">Flexible Hours</h3>
+                  <p className="text-gray-600">Extended hours to fit your schedule</p>
                 </div>
               </div>
               <div className="flex flex-col items-end">
@@ -173,10 +173,10 @@ const Contact = () => {
                   Emergency Care Available
                 </p>
                 <a
-                  href="tel:2064228654"
+                  href="tel:2068228353"
                   className="text-pink-500 font-medium hover:text-pink-600 transition-colors duration-300"
                 >
-                  Call us anytime: (206) 822-8353
+                  Call us: (206) 822-8353
                 </a>
               </div>
             </div>

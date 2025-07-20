@@ -16,13 +16,13 @@ const AboutPage = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Providing <span className="text-pink-500">24/7 Care</span> with
+              Providing <span className="text-pink-500">Quality Care</span> with
               <br /> Love and Dedication
             </h1>
 
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Since 2009, we&apos;ve been dedicated to providing round-the-clock
-              childcare that parents can trust and children love.
+              We&apos;re dedicated to providing exceptional childcare that
+              parents can trust and children love.
             </p>
           </div>
         </div>
