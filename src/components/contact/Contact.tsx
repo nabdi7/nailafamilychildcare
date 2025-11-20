@@ -56,29 +56,45 @@ const Contact = () => {
                 <span className="text-pink-500">Conversation</span>
               </h1>
               <p className="text-xl text-gray-600 max-w-xl">
-                Have questions about our childcare services? We&apos;re
-                here to help your family with all your needs.
+                Have questions about our childcare services? We&apos;re here to
+                help your family with all your needs.
               </p>
             </div>
 
-            <div className="flex-1">
+            <div className="flex-1 w-full md:w-auto">
               <div className="bg-white p-8 rounded-3xl shadow-xl">
                 <h3 className="text-2xl font-bold mb-6">Contact Us</h3>
                 <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    name="user_name"
-                    value={formState.user_name}
-                    onChange={(e) =>
-                      setState((prevState) => ({
-                        ...prevState,
-                        user_name: e.target.value,
-                      }))
-                    }
-                    required
-                    className="w-full px-4 py-3 rounded-xl bg-gray-50 border-0 focus:ring-2 focus:ring-pink-500"
-                  />
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      name="user_name"
+                      value={formState.user_name}
+                      onChange={(e) =>
+                        setState((prevState) => ({
+                          ...prevState,
+                          user_name: e.target.value,
+                        }))
+                      }
+                      required
+                      className="w-full px-4 py-3 rounded-xl bg-gray-50 border-0 focus:ring-2 focus:ring-pink-500"
+                    />
+                    <input
+                      type="tel"
+                      placeholder="Phone Number"
+                      name="user_phone"
+                      value={formState.user_phone}
+                      onChange={(e) =>
+                        setState((prevState) => ({
+                          ...prevState,
+                          user_phone: e.target.value,
+                        }))
+                      }
+                      required
+                      className="w-full px-4 py-3 rounded-xl bg-gray-50 border-0 focus:ring-2 focus:ring-pink-500"
+                    />
+                  </div>
                   <input
                     type="email"
                     placeholder="Email Address"
@@ -165,7 +181,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-2">Flexible Hours</h3>
-                  <p className="text-gray-600">Extended hours to fit your schedule</p>
+                  <p className="text-gray-600">
+                    Extended hours to fit your schedule
+                  </p>
                 </div>
               </div>
               <div className="flex flex-col items-end">
