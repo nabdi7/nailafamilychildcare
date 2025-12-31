@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Menu as MenuIcon, X, Phone } from "lucide-react";
+import { Menu as MenuIcon, X } from "lucide-react";
 
 interface MenuProps {
   isOpen: boolean;
@@ -50,7 +50,7 @@ const Menu = ({ isOpen, setIsOpen }: MenuProps) => {
             >
               Contact Us
             </Link>
-            <div className="block w-full px-3 py-2">
+            {/* <div className="block w-full px-3 py-2">
               <div className="inline-flex items-center bg-pink-100 rounded-full px-4 py-2 text-pink-500 hover:bg-pink-200 transition-colors duration-200">
                 <Phone className="h-4 w-4 text-pink-500 mr-2 flex-shrink-0" />
                 <a
@@ -61,7 +61,7 @@ const Menu = ({ isOpen, setIsOpen }: MenuProps) => {
                   (206)-822-8353 
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

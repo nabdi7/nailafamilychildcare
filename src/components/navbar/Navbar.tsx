@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Phone } from "lucide-react";
+// import { Phone } from "lucide-react";
 import Link from "next/link";
 import Menu from "../menu/Menu";
 import Image from "next/image";
@@ -55,7 +55,7 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center space-x-2 sm:space-x-4">
-              <div className="hidden md:flex bg-pink-100 rounded-full px-2 sm:px-4 py-2 items-center">
+              {/* <div className="hidden md:flex bg-pink-100 rounded-full px-2 sm:px-4 py-2 items-center">
                 <Phone className="h-4 w-4 text-pink-500 mr-1 sm:mr-2 flex-shrink-0" />
                 <a
                   href="tel:2068228353"
@@ -63,7 +63,7 @@ export default function Navbar() {
                 >
                   (206)-822-8353
                 </a>
-              </div>
+              </div> */}
 
               {/* Mobile Menu */}
               <div className="md:hidden">

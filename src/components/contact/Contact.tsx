@@ -2,7 +2,7 @@
 import React, { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { Star, Send, Clock } from "lucide-react";
-import { ContactFormState, contactMethods, initialFormState } from "./index";
+import { ContactFormState, initialFormState } from "./index";
 
 const Contact = () => {
   const [formState, setState] = useState<ContactFormState>(initialFormState);
@@ -141,7 +141,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Methods */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {contactMethods.map((method, index) => (
@@ -168,7 +168,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Hours Section */}
       <section className="py-16 bg-gradient-to-b from-white to-pink-50">
@@ -190,12 +190,12 @@ const Contact = () => {
                 <p className="text-lg font-medium text-gray-900 mb-2">
                   Emergency Care Available
                 </p>
-                <a
+                {/* <a
                   href="tel:2068228353"
                   className="text-pink-500 font-medium hover:text-pink-600 transition-colors duration-300"
                 >
                   Call us: (206) 822-8353
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

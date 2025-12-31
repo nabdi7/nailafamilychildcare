@@ -1,7 +1,7 @@
 import {
-  Phone,
+  // Phone,
   Mail,
-  MapPin,
+  // MapPin,
   Facebook,
   Instagram,
   Youtube,
@@ -35,25 +35,25 @@ export const footerData = {
   },
   companyName: "Naila Family Childcare",
   tagline:
-    "At Naila Family Childcare in Renton WA, we provide a safe, fun, and educational environment!",
+    "At Naila Family Childcare, we provide a safe, fun, and educational environment!",
 
   contactInfo: [
-    {
-      icon: Phone,
-      href: "tel:2068228353",
-      label: "(206)-822-8353",
-    },
+    // {
+    //   icon: Phone,
+    //   href: "tel:2068228353",
+    //   label: "(206)-822-8353",
+    // },
     {
       icon: Mail,
       href: "mailto:ablaali1997@gmail.com",
       label: "ablaali1997@gmail.com",
     },
-    {
-      icon: MapPin,
-      href: "https://maps.app.goo.gl/2HE6W8tcV1sZnKTe6",
-      label: "6714 SE Third St, Renton, WA",
-      isExternal: true,
-    },
+    // {
+    //   icon: MapPin,
+    //   href: "https://maps.app.goo.gl/2HE6W8tcV1sZnKTe6",
+    //   label: "6714 SE Third St, Renton, WA",
+    //   isExternal: true,
+    // },
   ] as ContactInfo[],
 
   quickLinks: [
