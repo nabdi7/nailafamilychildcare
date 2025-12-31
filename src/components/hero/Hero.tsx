@@ -23,7 +23,7 @@ const Hero = () => {
               </h1>
 
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                At Naila Family Childcare in Renton WA, we provide a safe, fun, and
+                At Naila Family Childcare, we provide a safe, fun, and
                 educational environment where children thrive and grow.
               </p>
 
